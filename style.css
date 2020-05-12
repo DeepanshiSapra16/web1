@@ -1,0 +1,137 @@
+*{margin:0 ; padding:0 ;}
+header {
+    background-color:black;
+    height:15%;
+    width:100%;
+    margin:0 auto;
+    z-index: 10;
+}
+.header-logo {
+    float:left;
+    position: absolute;
+    margin-top: 5px;
+    margin-left:10px;
+    margin-bottom: 5px;
+}
+.header-image {
+    width:150px;
+    height:75px;
+}
+.header-list li {
+    float:right;
+    list-style: none;
+    padding:20px 15px;
+    display:inline-block;
+    transition: 0.2s all;
+    color:white;
+}
+.header-list li:hover {
+    background-color:royalblue;
+    color: rgba(217, 238, 189);
+    text-transform:uppercase;
+}
+.main{
+    background-image: url(desert.jpg);
+    background-size: cover;
+    height:500px
+}
+.text {
+    text-align: center;
+    padding-top:100px
+}
+.text h1 {
+    font-size:70px;
+    word-spacing:10px;
+    padding-bottom: 15px;
+    letter-spacing: 5px;
+}
+.buttons {
+    text-align: center;
+    padding-top: 80px;
+}
+.buttons a {
+    padding-right:40px
+}
+.button {
+    text-decoration: none;
+    display:inline-block;
+    padding:20px 50px;
+    border-radius: 5px;
+    color:white;
+    box-shadow: 0 7px black;
+}
+.signup{
+    background-color: rgb(118, 118, 202);
+}
+.signup:hover {
+    text-transform: uppercase;
+}
+.login{
+    background-color: seagreen;
+}
+.login:hover{
+    text-transform: uppercase;
+}
+.button:active{
+    background-color: darkorange;
+    position: relative;
+    top:7px;
+    box-shadow: none;
+    transition:0 all;
+}
+.h1 {
+    text-align: center;
+    padding-top:10px;
+    color:black;
+}
+.item-container {
+    padding-top: 40px ;
+    height:500px;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    background-color: pink
+}
+.item {
+    flex:auto;
+    width:33.3%;
+}
+.item p {
+    text-align: center;
+    
+}
+.a1{
+    text-decoration: none;
+}
+.footer{
+    height:15%;
+    background-color: black;
+    width:100%;
+    margin:0 auto;
+}
+.footer-logo{
+    float:left;
+    position: absolute;
+    margin-top: 5px;
+    margin-left:10px;
+    margin-bottom: 5px
+}
+.footer-list li{
+    display:inline-block;
+    color:white;
+    padding:20px 15px;
+    list-style:none;
+}
+.footer-list li:hover {
+    background-color:royalblue;
+    color: rgba(217, 238, 189);
+    text-transform:uppercase;
+}
+.footer-list{
+    float:right;
+    padding-right: 3px;
+}
+.footer-image{
+    width:150px;
+    height:75px;
+}
